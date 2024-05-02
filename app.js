@@ -16,7 +16,7 @@ app.use(express.static('./public'));
 // stripe
 app.use(notFoundMiddleware);
 app.use(errorHandlerMiddleware);
-
+//app.get
 const port = process.env.PORT || 3000;
 
 const start = async () => {
