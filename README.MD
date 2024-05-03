@@ -1,4 +1,4 @@
-# https://github.com/benconsult/stripe_project.git
+### STRIPE APP DEMO APP
 
 git branch
 //to main
@@ -9,6 +9,9 @@ git add .
 git commit -m ""
 git remote add main https://github.com/benconsult/stripe_project.git
 git push -u origin main
+
+######
+
 
 # overview
 FE - server method - payment gateway
@@ -24,6 +27,8 @@ IDEA: FE publishable key communicate with the BE (secret), then the secret key i
 
 
 # flow overview
+
+
 -copy the publishable key from the API key to project in
 public/browser-app.js/ stripe method ''
 
